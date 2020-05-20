@@ -6,3 +6,14 @@ Then you can generate the 256*256 patches using following script.
 python generatePatchFlickr.py flicker_2W_images/ output_path/
 ```
 The size of output training dataset is over 80G.
+
+
+If your find our dataset is helpful for your research, please cite our paper.
+Besides, our dataset is only for research.
+```
+@article{liu2020unified,
+  title={A Unified End-to-End Framework for Efficient Deep Image Compression},
+  author={Liu, Jiaheng and Lu, Guo and Hu, Zhihao and Xu, Dong},
+  journal={arXiv preprint arXiv:2002.03370},
+  year={2020}
+}
